@@ -1,0 +1,21 @@
+{
+  "query":{
+    "count":"1",
+      "created":"2010-03-14T11:56:39Z",
+      "lang":"en-US",
+      "updated":"2010-03-14T11:56:39Z",
+      "uri":"https://query.yahooapis.com/v1/yql?q=SELECT+*+FROM+meme.info+WHERE+owner_guid%3D%27EMREXCV4R5OTM3CZW3HBD5QAGY%27",
+      "results":{
+        "meme":{
+          "guid":"EMREXCV4R5OTM3CZW3HBD5QAGY",
+          "name":"jtadeulopes",
+          "title":"Jésus Lopes",
+          "description":"software developer",
+          "url":"http://meme.yahoo.com/jtadeulopes/",
+          "avatar_url":"http://d.yimg.com/gg/jtadeulopes/avatars/44251e70378d4d225f8cda09a6c3aec87301833a.jpeg",
+          "language":"pt",
+          "followers":"34"
+        }
+      }
+  }
+}
