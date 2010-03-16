@@ -5,11 +5,11 @@ describe "Meme" do
   describe "info" do
 
     before :each do
-      @owner_guid = "EMREXCV4R5OTM3CZW3HBD5QAGY"
-      query = "SELECT%20*%20FROM%20meme.info%20WHERE%20owner_guid%3D'#{@owner_guid}'"
+      @name = "jtadeulopes"
+      query = "SELECT%20*%20FROM%20meme.info%20WHERE%20name%3D'#{@name}'"
       url = "https://query.yahooapis.com/v1/public/yql?q=#{query}&format=json"
       FakeWeb.register_uri(:get, url, :body => load_fixture('meme_info.json'))
-      @profile = Meme.new(@owner_guid)
+      @profile = Meme.new(@name)
     end
     
     it "should return name" do
