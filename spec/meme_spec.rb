@@ -5,11 +5,10 @@ describe "Meme" do
   describe "info" do
 
     before :each do
-      @name = "jtadeulopes"
-      query = "SELECT%20*%20FROM%20meme.info%20WHERE%20name%3D'#{@name}'"
-      url = "https://query.yahooapis.com/v1/public/yql?q=#{query}&format=json"
+      name = "jtadeulopes"
+      url  = URI.escape("https://query.yahooapis.com/v1/public/yql?q=SELECT * FROM meme.info WHERE name='#{name}'&format=json")
       FakeWeb.register_uri(:get, url, :body => load_fixture('meme_info.json'))
-      @profile = Meme::Info.find(@name)
+      @profile = Meme::Info.find(name)
     end
     
     it "should return name" do
@@ -42,6 +41,21 @@ describe "Meme" do
 
     it "should return followers" do
       @profile.followers.should == "34"
+    end
+
+  end
+
+  describe "#search" do
+
+    before :each do
+      query = 'meme rocks'
+      url = URI.escape("https://query.yahooapis.com/v1/public/yql?q=SELECT * FROM meme.search WHERE query='#{query}'&format=json")
+      FakeWeb.register_uri(:get, url, :body => load_fixture('meme_search.json'))
+      @results = Meme::Post.find(query)
+    end
+
+    it "should return pubid" do
+      @results.first.pubid.should == "yC8nqOd"
     end
 
   end

@@ -1,0 +1,122 @@
+{
+  "query":{
+    "count":"10",
+      "created":"2010-03-17T02:48:58Z",
+      "lang":"en-US",
+      "updated":"2010-03-17T02:48:58Z",
+      "uri":"https://query.yahooapis.com/v1/yql?q=SELECT+*+FROM+meme.search+WHERE+query%3D%22meme+rocks%22%3B",
+      "results":{
+        "post":[{
+          "pubid":"yC8nqOd",
+          "guid":"7Z7XFAPD5FLXFKJVT4NG6XTTA4",
+          "url":"http://meme.yahoo.com/celizelove/p/yC8nqOd/",
+          "timestamp":"1268410909000",
+          "category":"text",
+          "type":"text",
+          "content":"okay...it&#39;s meme in english...starting meme ^.&lt;) rock!!",
+          "repost_count":"0",
+          "caption":""
+        },
+        {
+          "pubid":"a7DxqA3",
+          "guid":"RZ662DMAG7SS3ULUEGSSWCTIN4",
+          "url":"http://meme.yahoo.com/james_sa/p/a7DxqA3/",
+          "timestamp":"1268226995000",
+          "category":"photo",
+          "type":"photo",
+          "content":"http://d.yimg.com/gg/u/7531e1387997debf4b436c21104221527e1884e7.jpeg",
+          "repost_count":"0",
+          "caption":"This is good. But a lot of things happening means a high chance that I, the man who lives and breathes Panic and has a giant status board in my head, might not properly explain everything to everyone. Steve and I realized it was high time we made this Cabel Status Board public… using technology!"
+        },
+        {
+          "pubid":"Qu0qzpw",
+          "guid":"RZ662DMAG7SS3ULUEGSSWCTIN4",
+          "url":"http://meme.yahoo.com/james_sa/p/Qu0qzpw/",
+          "timestamp":"1268185814000",
+          "category":"text",
+          "type":"text",
+          "content":"Anonymous asked: ‘How do you maintain focus (on work, dreams, goals, life)?’\u000a \u000a You do one thing at a time.",
+          "repost_count":"0",
+          "caption":""
+        },
+        {
+          "pubid":"FYG6jj6",
+          "guid":"JIW3KPQK3Z6Q6RCHPK77GRRQUQ",
+          "url":"http://meme.yahoo.com/ahnyenye/p/FYG6jj6/",
+          "timestamp":"1268780547000",
+          "category":"text",
+          "type":"text",
+          "content":"rock you...^_^",
+          "repost_count":"0",
+          "caption":""
+        },
+        {
+          "pubid":"w-WRsfU",
+          "guid":"FREBGIQRAVGTJTK5MO2SZRJJ7Y",
+          "url":"http://meme.yahoo.com/bandit_/p/w-WRsfU/",
+          "timestamp":"1268739146000",
+          "category":"photo",
+          "type":"photo",
+          "content":"http://d.yimg.com/gg/u/2441eceb4b334c6fc29c9bd306fe1957693d605e.jpeg",
+          "repost_count":"0",
+          "caption":"Alodia Rocks!!!"
+        },
+        {
+          "pubid":"xLWxaiC",
+          "guid":"FLNH2DLQBKGR3NHRGPCCE2WYME",
+          "url":"http://meme.yahoo.com/sergioruiz/p/xLWxaiC/",
+          "timestamp":"1268776544000",
+          "category":"text",
+          "type":"text",
+          "content":"@RicGrajeda Rock it men!",
+          "repost_count":"0",
+          "caption":""
+        },
+        {
+          "pubid":"sTtco-b",
+          "guid":"L2UB3RTLRKYN5NFGBAQCUQ42RM",
+          "url":"http://meme.yahoo.com/thumpergooga1/p/sTtco-b/",
+          "timestamp":"1268775387000",
+          "category":"text",
+          "type":"text",
+          "content":"Bio-Rock Pemuteran Bali Indonesia - GeorgeM3 &gt;&gt; http://is.gd/aL0IP",
+          "repost_count":"0",
+          "caption":""
+        },
+        {
+          "pubid":"BxvLPH7",
+          "guid":"Y7HTBSODNETNT53GC6NEYGTKYQ",
+          "url":"http://meme.yahoo.com/celebboardnet/p/BxvLPH7/",
+          "timestamp":"1268784114000",
+          "category":"photo",
+          "type":"photo",
+          "content":"http://d.yimg.com/gg/u/14df7a560e4601c2771bdb81582d40a85da716ce.jpeg",
+          "repost_count":"0",
+          "caption":"Faith Hill - 25th Annual Rock And Roll Hall of Fame Induction Ceremony at the Waldorf-Astoria, NY 15.03.2010\u000a \u000a &lt;--More on www.celebboard.net"
+        },
+        {
+          "pubid":"F5lR99K",
+          "guid":"HWSI5H2NOLUCJB4BAT4L3KM54M",
+          "url":"http://meme.yahoo.com/new_york_recruiters_-_jobs_-_careers/p/F5lR99K/",
+          "timestamp":"1268793501000",
+          "category":"text",
+          "type":"text",
+          "content":"Mega64 pokes fun at The Beatles: Rock Band with a little help from a friend: \u000a Mega64 gets .. http://bit.ly/cKDl6C\u000a miamirecruiters.biz",
+          "repost_count":"0",
+          "caption":""
+        },
+        {
+          "pubid":"WWbjTrB",
+          "guid":"HWSI5H2NOLUCJB4BAT4L3KM54M",
+          "url":"http://meme.yahoo.com/new_york_recruiters_-_jobs_-_careers/p/WWbjTrB/",
+          "timestamp":"1268793482000",
+          "category":"text",
+          "type":"text",
+          "content":"Mega64 pokes fun at The Beatles: Rock Band with a little help from a friend: \u000a Mega64 gets .. http://bit.ly/cKDl6C\u000a miamirecruiters.biz",
+          "repost_count":"0",
+          "caption":""
+        }
+        ]
+      }
+  }
+}
