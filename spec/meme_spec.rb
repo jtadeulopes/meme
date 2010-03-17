@@ -9,7 +9,7 @@ describe "Meme" do
       query = "SELECT%20*%20FROM%20meme.info%20WHERE%20name%3D'#{@name}'"
       url = "https://query.yahooapis.com/v1/public/yql?q=#{query}&format=json"
       FakeWeb.register_uri(:get, url, :body => load_fixture('meme_info.json'))
-      @profile = Meme.new(@name)
+      @profile = Meme::Info.find(@name)
     end
     
     it "should return name" do
