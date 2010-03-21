@@ -25,4 +25,31 @@ class Meme
 
   end
 
+  class Post
+
+    VARS = ["category", "timestamp", "guid", "pubid", "url", "repost_count", "caption", "type", "content"]
+
+    attr_accessor *VARS
+
+    def initialize(data)
+      unless data.nil?
+        VARS.each do |var|
+          self.instance_variable_set("@#{var}", data[var])
+        end
+      end      
+    end
+
+    def self.find(query)
+      url = URI.escape("https://query.yahooapis.com/v1/public/yql?q=SELECT * FROM meme.search WHERE query='#{query}'&format=json")
+      buffer = open(url).read
+      parse = JSON.parse(buffer)['query']['results']['post']
+      if parse
+        return parse.map {|m| Post.new(m)}
+      else
+        parse.error!
+      end
+    end
+
+  end
+
 end
