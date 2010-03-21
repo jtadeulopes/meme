@@ -9,8 +9,6 @@ class Meme
       self.class.define = @owner
     end
 
-    # Find user by name
-    #
     def self.find(name)
       Info.new(name)
     end
@@ -39,8 +37,9 @@ class Meme
       end      
     end
 
-    def self.find(query)
-      url = URI.escape("https://query.yahooapis.com/v1/public/yql?q=SELECT * FROM meme.search WHERE query='#{query}'&format=json")
+    def self.find(query, options = {})
+      type = " and type='#{options.delete(:type).to_s}'" if options.has_key?(:type)
+      url = URI.escape("https://query.yahooapis.com/v1/public/yql?q=SELECT * FROM meme.search WHERE query='#{query}'#{type}&format=json")
       buffer = open(url).read
       parse = JSON.parse(buffer)['query']['results']['post']
       if parse

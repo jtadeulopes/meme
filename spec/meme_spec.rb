@@ -92,6 +92,31 @@ describe "Meme" do
 
   end
 
+  describe "#search by type" do
+
+    it "should search by type photo" do
+      query = 'meme rocks'
+      fake_web(query, 'photo')
+      @results = Meme::Post.find(query, :type => :photo)
+      @results.count.should == 3
+      @results.first.type.should == "photo"
+    end
+    it "should search by type video" do
+      query = 'keyboard cat'
+      fake_web(query, 'video')
+      @results = Meme::Post.find(query, :type => :video)
+      @results.count.should == 2
+      @results.first.type.should == "video"
+    end
+
+    def fake_web(query, type)
+      select = "SELECT * FROM meme.search WHERE query='#{query}' and type='#{type}'"
+      url  = URI.escape("https://query.yahooapis.com/v1/public/yql?q=#{select}&format=json")
+      FakeWeb.register_uri(:get, url, :body => load_fixture("meme_search_type_#{type}.json"))
+    end
+
+  end
+
   def load_fixture(name)
     File.join(File.expand_path(File.dirname(__FILE__)), '/fixtures', name)
   end

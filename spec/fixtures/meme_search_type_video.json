@@ -1,0 +1,34 @@
+{
+ "query":{
+  "count":"2",
+  "created":"2010-03-21T01:49:03Z",
+  "lang":"en-US",
+  "updated":"2010-03-21T01:49:03Z",
+  "uri":"https://query.yahooapis.com/v1/yql?q=SELECT+*+FROM+meme.search+WHERE+query%3D%22keyboard+cat%22+and+type%3D%27video%27%3B",
+  "results":{
+   "post":[{
+     "pubid":"6KCkGnw",
+     "guid":"SD4QBFS6YGJYQODE74V5CBYOAM",
+     "url":"http://meme.yahoo.com/diegocosta/p/6KCkGnw/",
+     "timestamp":"1268757628000",
+     "category":"video",
+     "type":"video",
+     "content":"http://youtube.com/v/xSE9Qk9wkig",
+     "repost_count":"1",
+     "caption":"Keyboard cat v2.0"
+    },
+    {
+     "pubid":"aHY4rbw",
+     "guid":"KLKFHSHPT6APXZACURLC4AWNAU",
+     "url":"http://meme.yahoo.com/bambii/p/aHY4rbw/",
+     "timestamp":"1268712800000",
+     "category":"video",
+     "type":"video",
+     "content":"http://youtube.com/v/xSE9Qk9wkig",
+     "repost_count":"0",
+     "caption":"I favorited a YouTube video -- Charlie Schmidt&#39;s Keyboard Cat REINCARNATED! http://youtu.be/xSE9Qk9wkig?a"
+    }
+   ]
+  }
+ }
+}
