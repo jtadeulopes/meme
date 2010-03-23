@@ -2,23 +2,27 @@ class Meme
 
   class Info
 
-    def initialize(name)
-      url     = URI.escape("https://query.yahooapis.com/v1/public/yql?q=SELECT * FROM meme.info WHERE name='#{name}'&format=json")
-      buffer  = open(url).read
-      @owner  = JSON.parse(buffer)
-      self.class.define = @owner
+    VARS = ["avatar_url", "name", "title", "guid", "followers", "language", "url", "description"]
+
+    attr_accessor *VARS
+
+    def initialize(data)
+      unless data.nil?
+        VARS.each do |var|
+          self.instance_variable_set("@#{var}", data[var])
+        end
+      end
     end
 
     def self.find(name)
-      Info.new(name)
-    end
-
-    private
-
-    def self.define=(owner)
-      raise 'Meme user not found' if owner['query']['results'].nil?
-      owner['query']['results']['meme'].each do |key, value|
-        define_method(key) { value }
+      url    = URI.escape("https://query.yahooapis.com/v1/public/yql?q=SELECT * FROM meme.info WHERE name='#{name}'&format=json")
+      buffer = open(url).read
+      parse  = JSON.parse(buffer)
+      if parse
+        results = parse['query']['results']
+        results.nil? ? raise('Meme user not found') : Info.new(results['meme'])
+      else
+        parse.error!
       end
     end
 
