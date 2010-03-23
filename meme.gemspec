@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{meme}
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["J\303\251sus Lopes"]
@@ -23,8 +23,8 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
-     "init.rb",
      "lib/meme.rb",
+     "meme.gemspec",
      "spec/fixtures/meme_info.json",
      "spec/fixtures/meme_info_not_found.json",
      "spec/fixtures/meme_search.json",
