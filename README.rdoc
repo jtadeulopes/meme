@@ -43,6 +43,10 @@ Find by type:
 
 For more information, please refer the {project wiki}[http://wiki.github.com/jtadeulopes/meme/]
 
+== Installation
+
+  sudo gem install meme
+
 == TODO
 
 Much remains to be done! Please refer the {project wiki}[http://wiki.github.com/jtadeulopes/meme/]
