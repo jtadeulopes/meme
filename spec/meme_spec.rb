@@ -4,6 +4,15 @@ describe "Meme" do
 
   describe "info" do
 
+    describe "#user not found" do
+      it "should return error" do
+        url  = URI.escape("https://query.yahooapis.com/v1/public/yql?q=SELECT * FROM meme.info WHERE name='memeusernotfound'&format=json")
+        FakeWeb.register_uri(:get, url, :body => load_fixture('meme_info_not_found.json'))
+        lambda { Meme::Info.find('memeusernotfound') }.should raise_error RuntimeError,
+          'Meme user not found'
+      end
+    end
+
     before :each do
       name = "jtadeulopes"
       url  = URI.escape("https://query.yahooapis.com/v1/public/yql?q=SELECT * FROM meme.info WHERE name='#{name}'&format=json")

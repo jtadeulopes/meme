@@ -1,0 +1,10 @@
+{
+ "query":{
+  "count":"0",
+  "created":"2010-03-23T02:18:30Z",
+  "lang":"en-US",
+  "updated":"2010-03-23T02:18:30Z",
+  "uri":"https://query.yahooapis.com/v1/yql?q=SELECT+*+FROM+meme.info+WHERE+name%3D%27memeusernotfound%27",
+  "results":null
+ }
+}

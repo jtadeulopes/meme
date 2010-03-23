@@ -16,6 +16,7 @@ class Meme
     private
 
     def self.define=(owner)
+      raise 'Meme user not found' if owner['query']['results'].nil?
       owner['query']['results']['meme'].each do |key, value|
         define_method(key) { value }
       end
