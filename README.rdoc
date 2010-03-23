@@ -1,6 +1,51 @@
 = meme
 
-Description goes here.
+Yahoo! Meme API wrapper library in Ruby
+
+This project was made during {Yahoo! Open Hack Day Brasil 2010}[http://openhackbrazil.pbworks.com/]. Event that happened in São Paulo 20, 21 of March 2010.
+
+Meme uses {YQL}[http://developer.yahoo.com/yql/] to get API of {Yahoo! Meme}[http://meme.yahoo.com/] and is based on {meme-py}[http://github.com/guilhermechapiewski/meme-py] API created by {Guilherme Chapiewski}[http://twitter.com/gchapiewski]
+
+== Usage
+
+=== Find a user by name
+
+  user = Meme::Info.find('jtadeulopes')
+
+  user.name
+  => "jtadeulopes"
+
+  user.description
+  => "software developer"
+
+  user.guid
+  => "EMREXCV4R5OTM3CZW3HBD5QAGY"
+
+  user.avatar_url
+  => "http://d.yimg.com/gg/jtadeulopes/avatars/44251e70378d4d225f8cda09a6c3aec87301833a.jpeg"
+
+=== Find posts
+
+  posts = Meme::Post.find('brhackday')
+
+  posts.first.category
+  => "text"
+
+  post.first.content
+  => "RT @codepo8: And I am off - plane leaves BR for London. Thanks to everybody I met at #brhackday. I have not a single bad memory to speak of."
+
+Find by type:
+
+  posts = Meme::Post.find('meme rocks', :type => :photo)
+
+  posts.first.type
+  => "photo"
+
+For more information, please refer the {project wiki}[http://wiki.github.com/jtadeulopes/meme/]
+
+== TODO
+
+Much remains to be done! Please refer the {project wiki}[http://wiki.github.com/jtadeulopes/meme/]
 
 == Note on Patches/Pull Requests
  
