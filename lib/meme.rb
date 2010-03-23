@@ -20,7 +20,7 @@ class Meme
       parse  = JSON.parse(buffer)
       if parse
         results = parse['query']['results']
-        results.nil? ? raise('Meme user not found') : Info.new(results['meme'])
+        results.nil? ? nil : Info.new(results['meme'])
       else
         parse.error!
       end
@@ -46,9 +46,10 @@ class Meme
       type = " and type='#{options.delete(:type).to_s}'" if options.has_key?(:type)
       url = URI.escape("https://query.yahooapis.com/v1/public/yql?q=SELECT * FROM meme.search WHERE query='#{query}'#{type}&format=json")
       buffer = open(url).read
-      parse = JSON.parse(buffer)['query']['results']['post']
+      parse = JSON.parse(buffer)
       if parse
-        return parse.map {|m| Post.new(m)}
+        results = parse['query']['results']
+        results.nil? ? nil : results['post'].map {|m| Post.new(m)}
       else
         parse.error!
       end

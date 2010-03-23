@@ -5,11 +5,10 @@ describe "Meme" do
   describe "info" do
 
     describe "#user not found" do
-      it "should return error" do
+      it "should return nil" do
         url  = URI.escape("https://query.yahooapis.com/v1/public/yql?q=SELECT * FROM meme.info WHERE name='memeusernotfound'&format=json")
         FakeWeb.register_uri(:get, url, :body => load_fixture('meme_info_not_found.json'))
-        lambda { Meme::Info.find('memeusernotfound') }.should raise_error RuntimeError,
-          'Meme user not found'
+        Meme::Info.find('memeusernotfound').should be_nil
       end
     end
 
@@ -102,6 +101,14 @@ describe "Meme" do
   end
 
   describe "#search by type" do
+
+    describe "#posts not found" do
+      it "should return nil" do
+        query = 'brhackday'
+        fake_web(query, 'audio')
+        Meme::Post.find(query, :type => :audio).should be_nil
+      end
+    end
 
     it "should search by type photo" do
       query = 'meme rocks'

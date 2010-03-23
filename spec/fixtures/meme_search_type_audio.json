@@ -1,0 +1,10 @@
+{
+ "query":{
+  "count":"0",
+  "created":"2010-03-23T10:36:30Z",
+  "lang":"en-US",
+  "updated":"2010-03-23T10:36:30Z",
+  "uri":"https://query.yahooapis.com/v1/yql?q=SELECT+*+FROM+meme.search+WHERE+query%3D%27brhackday%27+and+type%3D%27audio%27%3B",
+  "results":null
+ }
+}
