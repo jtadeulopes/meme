@@ -1,0 +1,62 @@
+{
+  "query":{
+    "count":"5",
+      "created":"2010-04-01T10:40:21Z",
+      "lang":"en-US",
+      "updated":"2010-04-01T10:40:21Z",
+      "uri":"https://query.yahooapis.com/v1/yql?q=SELECT+*+FROM+meme.followers%285%29+WHERE+owner_guid%3D%27EMREXCV4R5OTM3CZW3HBD5QAGY%27",
+      "results":{
+        "meme":[{
+          "guid":"J7B4OWIQWFXHJDYZWAARA2RYZE",
+          "name":"zigotto",
+          "title":"Zigotto",
+          "description":"Criação e Desenvolvimento para todo Vale do Paraíba e Brasil",
+          "url":"http://meme.yahoo.com/zigotto/",
+          "avatar_url":"http://d.yimg.com/gg/zigotto/avatars/c0fbd3fe6c109cebaf0c0c871e45e338b7c04ed8.png",
+          "language":"pt",
+          "followers":"1"
+        },
+        {
+          "guid":"6M46NNM2LO5YQ7XNYCU5MVITKE",
+          "name":"acsouza09",
+          "title":"acsouza09",
+          "description":"Sou uma pessoa feliz, extremamente vaidoosa!",
+          "url":"http://meme.yahoo.com/acsouza09/",
+          "avatar_url":"http://d.yimg.com/gg/acsouza09/avatars/013fb916b1362f68acbbea5ec643012380d942e6.jpeg",
+          "language":"pt",
+          "followers":"3"
+        },
+        {
+          "guid":"NEUNUDTFXKL4Q3IQK2JEH4NMDI",
+          "name":"edercosta",
+          "title":"edercosta",
+          "description":"desenvolvedor web, só!",
+          "url":"http://meme.yahoo.com/edercosta/",
+          "avatar_url":"http://d.yimg.com/gg/edercosta/avatars/7e7b464e2af1e413ca421101d57b3c5684325076.jpeg",
+          "language":"pt",
+          "followers":"6"
+        },
+        {
+          "guid":"GNQZXVPVCUUVFODPRUGPYSK5LA",
+          "name":"marcelofraga",
+          "title":"Marcelo Fraga",
+          "description":"Web Developer",
+          "url":"http://meme.yahoo.com/marcelofraga/",
+          "avatar_url":"http://d.yimg.com/gg/marcelofraga/avatars/8dc4fde72c2f718386a44f52c5384ed83f7eea67.jpeg",
+          "language":"pt",
+          "followers":"5"
+        },
+        {
+          "guid":"SNTS64IYOYICF2TMB2QN2EGG2Y",
+          "name":"berg_te_amo",
+          "title":"°•๋ °Loறa°•๋ °",
+          "description":"°•๋ °navegando no றar dos றeus sonhos°•๋ °",
+          "url":"http://meme.yahoo.com/berg_te_amo/",
+          "avatar_url":"http://d.yimg.com/gg/berg_te_amo/avatars/24872b74162ea7ca3a0db798e25dccd7250aac33.jpeg",
+          "language":"pt",
+          "followers":"403"
+        }
+        ]
+      }
+  }
+}

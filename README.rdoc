@@ -24,6 +24,20 @@ Meme uses {YQL}[http://developer.yahoo.com/yql/] to get API of {Yahoo! Meme}[htt
   user.avatar_url
   => "http://d.yimg.com/gg/jtadeulopes/avatars/44251e70378d4d225f8cda09a6c3aec87301833a.jpeg"
 
+=== Followers
+
+  followers = user.followers
+  followers.count
+  => 10
+  
+  follower = followers.first
+
+  follower.name
+  => "zigotto"
+
+  follower.url
+  => "http://meme.yahoo.com/zigotto/"
+
 === Find posts
 
   posts = Meme::Post.find('brhackday')
@@ -31,8 +45,8 @@ Meme uses {YQL}[http://developer.yahoo.com/yql/] to get API of {Yahoo! Meme}[htt
   posts.first.category
   => "text"
 
-  post.first.content
-  => "RT @codepo8: And I am off - plane leaves BR for London. Thanks to everybody I met at #brhackday. I have not a single bad memory to speak of."
+  posts.first.content
+  => "RT @codepo8: And I am off - plane leaves BR for London. Thanks to everybody I met at #brhackday...
 
 Find by type:
 

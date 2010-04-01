@@ -1,0 +1,112 @@
+{
+  "query":{
+    "count":"10",
+      "created":"2010-04-01T10:31:02Z",
+      "lang":"en-US",
+      "updated":"2010-04-01T10:31:02Z",
+      "uri":"https://query.yahooapis.com/v1/yql?q=SELECT+*+FROM+meme.followers+WHERE+owner_guid%3D%27EMREXCV4R5OTM3CZW3HBD5QAGY%27",
+      "results":{
+        "meme":[{
+          "guid":"J7B4OWIQWFXHJDYZWAARA2RYZE",
+          "name":"zigotto",
+          "title":"Zigotto",
+          "description":"Criação e Desenvolvimento para todo Vale do Paraíba e Brasil",
+          "url":"http://meme.yahoo.com/zigotto/",
+          "avatar_url":"http://d.yimg.com/gg/zigotto/avatars/c0fbd3fe6c109cebaf0c0c871e45e338b7c04ed8.png",
+          "language":"pt",
+          "followers":"1"
+        },
+        {
+          "guid":"2FPYHHRLJK5XMBSSXNL5NQGGB4",
+          "name":"fabilouco8000",
+          "title":"Fabilouco8000",
+          "description":"Diversão é comigo mesmo!",
+          "url":"http://meme.yahoo.com/fabilouco8000/",
+          "avatar_url":"http://d.yimg.com/gg/fabilouco8000/avatars/73d91d124dbf68ad706798de4ed0a3f4661446f3.jpeg",
+          "language":"pt",
+          "followers":"510"
+        },
+        {
+          "guid":"6M46NNM2LO5YQ7XNYCU5MVITKE",
+          "name":"acsouza09",
+          "title":"acsouza09",
+          "description":"Sou uma pessoa feliz, extremamente vaidoosa!",
+          "url":"http://meme.yahoo.com/acsouza09/",
+          "avatar_url":"http://d.yimg.com/gg/acsouza09/avatars/013fb916b1362f68acbbea5ec643012380d942e6.jpeg",
+          "language":"pt",
+          "followers":"3"
+        },
+        {
+          "guid":"CETYPLO3WBYWGEBEUXMC2FO4EU",
+          "name":"marcetolosa",
+          "title":"Marcetolosa",
+          "description":"BA - Yahoo!",
+          "url":"http://meme.yahoo.com/marcetolosa/",
+          "avatar_url":"http://d.yimg.com/gg/marcetolosa/avatars/59a1e60f21b9c5d478ec1816dd827bdde64b8f52.jpeg",
+          "language":"es",
+          "followers":"1183"
+        },
+        {
+          "guid":"NEUNUDTFXKL4Q3IQK2JEH4NMDI",
+          "name":"edercosta",
+          "title":"edercosta",
+          "description":"desenvolvedor web, só!",
+          "url":"http://meme.yahoo.com/edercosta/",
+          "avatar_url":"http://d.yimg.com/gg/edercosta/avatars/7e7b464e2af1e413ca421101d57b3c5684325076.jpeg",
+          "language":"pt",
+          "followers":"6"
+        },
+        {
+          "guid":"GNQZXVPVCUUVFODPRUGPYSK5LA",
+          "name":"marcelofraga",
+          "title":"Marcelo Fraga",
+          "description":"Web Developer",
+          "url":"http://meme.yahoo.com/marcelofraga/",
+          "avatar_url":"http://d.yimg.com/gg/marcelofraga/avatars/8dc4fde72c2f718386a44f52c5384ed83f7eea67.jpeg",
+          "language":"pt",
+          "followers":"5"
+        },
+        {
+          "guid":"SNTS64IYOYICF2TMB2QN2EGG2Y",
+          "name":"berg_te_amo",
+          "title":"°•๋ °Loறa°•๋ °",
+          "description":"°•๋ °navegando no றar dos றeus sonhos°•๋ °",
+          "url":"http://meme.yahoo.com/berg_te_amo/",
+          "avatar_url":"http://d.yimg.com/gg/berg_te_amo/avatars/24872b74162ea7ca3a0db798e25dccd7250aac33.jpeg",
+          "language":"pt",
+          "followers":"403"
+        },
+        {
+          "guid":"M7OYDALP7ODIEAH6W2ZUQTVIB4",
+          "name":"matiaz",
+          "title":"Matiaz",
+          "description":"Yahoo! Argentina",
+          "url":"http://meme.yahoo.com/matiaz/",
+          "avatar_url":"http://d.yimg.com/gg/matiaz/avatars/711923e770e1c66f86e8ceb2743dd09e0d6a35cf.jpeg",
+          "language":"en",
+          "followers":"1492"
+        },
+        {
+          "guid":"QLET3EJ5XXYIVAHBOQVSPZB6BM",
+          "name":"mariano",
+          "title":"mariano",
+          "description":"Coisas engraçadas e informática!! O.o",
+          "url":"http://meme.yahoo.com/mariano/",
+          "avatar_url":"http://d.yimg.com/gg/mariano/avatars/13311faeddf76382df7806b8ad188e8b455cd2ca.jpeg",
+          "language":"pt",
+          "followers":"287"
+        },
+        {
+          "guid":"LKMTQUYO4NA3HWE2MHPCC2UVOU",
+          "name":"willweb",
+          "title":"willweb",
+          "description":"Imerso no mundo digital, para descobrir intenções e realidades físicas!",
+          "url":"http://meme.yahoo.com/willweb/",
+          "avatar_url":"http://d.yimg.com/gg/willweb/avatars/480c433a64d2b433e618cd6acb7436dafffe5299.jpeg",
+          "language":"pt",
+          "followers":"12283"
+        }
+        ]
+      }
+  }
+}

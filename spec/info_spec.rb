@@ -44,8 +44,26 @@ describe "Meme::Info" do
     @profile.language.should == "pt"
   end
 
-  it "should return followers" do
-    @profile.followers.should == "34"
+  describe "#followers" do
+
+    it "should return followers" do
+      query = "SELECT * FROM meme.followers(10) WHERE owner_guid='EMREXCV4R5OTM3CZW3HBD5QAGY'"
+      fake_web(query, 'meme_followers.json')
+      @profile.followers.count.should == 10
+    end
+
+    it "should return five followers" do
+      query = "SELECT * FROM meme.followers(5) WHERE owner_guid='EMREXCV4R5OTM3CZW3HBD5QAGY'"
+      fake_web(query, 'meme_followers_count.json')
+      @profile.followers(5).count.should == 5
+    end
+
+    it "should return all followers" do
+      query = "SELECT * FROM meme.followers(0) WHERE owner_guid='EMREXCV4R5OTM3CZW3HBD5QAGY'"
+      fake_web(query, 'meme_followers_all.json')
+      @profile.followers(:all).count.should == 36
+    end
+
   end
 
 end

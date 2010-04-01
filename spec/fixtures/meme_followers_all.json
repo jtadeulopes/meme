@@ -1,0 +1,372 @@
+{
+  "query":{
+    "count":"36",
+      "created":"2010-04-01T10:59:20Z",
+      "lang":"en-US",
+      "updated":"2010-04-01T10:59:20Z",
+      "uri":"https://query.yahooapis.com/v1/yql?q=SELECT+*+FROM+meme.followers%280%29+WHERE+owner_guid%3D%27EMREXCV4R5OTM3CZW3HBD5QAGY%27",
+      "results":{
+        "meme":[{
+          "guid":"J7B4OWIQWFXHJDYZWAARA2RYZE",
+          "name":"zigotto",
+          "title":"Zigotto",
+          "description":"Criação e Desenvolvimento para todo Vale do Paraíba e Brasil",
+          "url":"http://meme.yahoo.com/zigotto/",
+          "avatar_url":"http://d.yimg.com/gg/zigotto/avatars/c0fbd3fe6c109cebaf0c0c871e45e338b7c04ed8.png",
+          "language":"pt",
+          "followers":"1"
+        },
+        {
+          "guid":"2FPYHHRLJK5XMBSSXNL5NQGGB4",
+          "name":"fabilouco8000",
+          "title":"Fabilouco8000",
+          "description":"Diversão é comigo mesmo!",
+          "url":"http://meme.yahoo.com/fabilouco8000/",
+          "avatar_url":"http://d.yimg.com/gg/fabilouco8000/avatars/73d91d124dbf68ad706798de4ed0a3f4661446f3.jpeg",
+          "language":"pt",
+          "followers":"510"
+        },
+        {
+          "guid":"FNMGCNJNHWY6DERCXJNWDWAUZE",
+          "name":"andreluisfr",
+          "title":"Andreluisfr",
+          "description":"who cares?",
+          "url":"http://meme.yahoo.com/andreluisfr/",
+          "avatar_url":"http://d.yimg.com/gg/andreluisfr/avatars/d5a5f8ba373d13803941e5c3418785fc269992f5.jpeg",
+          "language":"pt",
+          "followers":"434"
+        },
+        {
+          "guid":"6CMFHWOOXFIFGIFGBDZQY6WSEI",
+          "name":"ruyfortini",
+          "title":"Ruy Fortini",
+          "description":"Estudante, Planejador, Marketeiro, Produtor e DJ.",
+          "url":"http://meme.yahoo.com/ruyfortini/",
+          "avatar_url":"http://d.yimg.com/gg/ruyfortini/avatars/74a05e0470b916e744337825d32355fe074c466e.jpeg",
+          "language":"pt",
+          "followers":"271"
+        },
+        {
+          "guid":"P7GAN4BLOYAMLEQYWBEPFKY63Q",
+          "name":"l0rd_b1tz",
+          "title":"cortex-chipado",
+          "description":"No big ou little endian...",
+          "url":"http://meme.yahoo.com/l0rd_b1tz/",
+          "avatar_url":"http://d.yimg.com/gg/l0rd_b1tz/avatars/cca7bfbec79808e840328b72c54775e2a28b4ec8.jpeg",
+          "language":"pt",
+          "followers":"428"
+        },
+        {
+          "guid":"35QCOFX624ZGMXGMDOOI6JPMPE",
+          "name":"draven",
+          "title":"Draven",
+          "description":"Engenheiro da Computação",
+          "url":"http://meme.yahoo.com/draven/",
+          "avatar_url":"http://d.yimg.com/gg/draven/avatars/17d8eb3da0f6b4c23327b7f3a88de8f665089de1.jpeg",
+          "language":"pt",
+          "followers":"132"
+        },
+        {
+          "guid":"A3MMW6HTTV2TZYRPVGOBKTD27A",
+          "name":"lucascaton",
+          "title":"Lucas Catón",
+          "description":null,
+          "url":"http://meme.yahoo.com/lucascaton/",
+          "avatar_url":"http://d.yimg.com/gg/lucascaton/avatars/05006327b5ca3e4017e3fd984f0aeb1141a363a7.jpeg",
+          "language":"pt",
+          "followers":"6"
+        },
+        {
+          "guid":"MCYG5GAPYNCJX562KB533MMY74",
+          "name":"docenena",
+          "title":"DoceNena",
+          "description":"Yassaka San",
+          "url":"http://meme.yahoo.com/docenena/",
+          "avatar_url":"http://d.yimg.com/gg/docenena/avatars/3c5761c5323cf5673c93d8615cf4b9494ee4e373.jpeg",
+          "language":"pt",
+          "followers":"645"
+        },
+        {
+          "guid":"ODWX4UHJKAX4RO4OOKBKPLHPKU",
+          "name":"biasalvatti",
+          "title":"BiaSalvatti",
+          "description":"Jornalista, (ex) web designer, apaixonada por música, arte digital, cultura e futebol.",
+          "url":"http://meme.yahoo.com/biasalvatti/",
+          "avatar_url":"http://d.yimg.com/gg/biasalvatti/avatars/b54684e8ce1d92447efbffcf94d7f873188a9a25.jpeg",
+          "language":"pt",
+          "followers":"178"
+        },
+        {
+          "guid":"6M46NNM2LO5YQ7XNYCU5MVITKE",
+          "name":"acsouza09",
+          "title":"acsouza09",
+          "description":"Sou uma pessoa feliz, extremamente vaidoosa!",
+          "url":"http://meme.yahoo.com/acsouza09/",
+          "avatar_url":"http://d.yimg.com/gg/acsouza09/avatars/013fb916b1362f68acbbea5ec643012380d942e6.jpeg",
+          "language":"pt",
+          "followers":"3"
+        },
+        {
+          "guid":"CETYPLO3WBYWGEBEUXMC2FO4EU",
+          "name":"marcetolosa",
+          "title":"Marcetolosa",
+          "description":"BA - Yahoo!",
+          "url":"http://meme.yahoo.com/marcetolosa/",
+          "avatar_url":"http://d.yimg.com/gg/marcetolosa/avatars/59a1e60f21b9c5d478ec1816dd827bdde64b8f52.jpeg",
+          "language":"es",
+          "followers":"1183"
+        },
+        {
+          "guid":"R3WI4LEBNRDC4A6LKLPX6P3BD4",
+          "name":"edilson",
+          "title":"Erbo08",
+          "description":"Web, Fazendo Faculdade de Turismo, e procurando novos amigos.",
+          "url":"http://meme.yahoo.com/edilson/",
+          "avatar_url":"http://d.yimg.com/gg/edilson/avatars/a9c3f6921b7eccf4580bc420aec90721e1000f8d.jpeg",
+          "language":"pt",
+          "followers":"211"
+        },
+        {
+          "guid":"TOA5XIFY65GMKCCUVNUXWFX6QA",
+          "name":"faaz",
+          "title":"faaz",
+          "description":"Grupo de Midia e Entretenimento",
+          "url":"http://meme.yahoo.com/faaz/",
+          "avatar_url":"http://d.yimg.com/gg/faaz/avatars/1518fcc6deba72bd794bd3238076ead864ab0162.png",
+          "language":"pt",
+          "followers":"202"
+        },
+        {
+          "guid":"RX6SH6PJWJCKFKGLCD5SI44JYE",
+          "name":"andrepancione",
+          "title":"andrepancione",
+          "description":"católico, palmeirense, advogado, leitor de tecnologia e afins e seguidor do rock and roll ...",
+          "url":"http://meme.yahoo.com/andrepancione/",
+          "avatar_url":"http://d.yimg.com/gg/andrepancione/avatars/e071bc5742a4cb8b07e1762e56245444e717b173.jpeg",
+          "language":"pt",
+          "followers":"279"
+        },
+        {
+          "guid":"4XHMYJUNKCQAALPZHQWUZIPOVM",
+          "name":"paulaoliveira",
+          "title":"paulaoliveira",
+          "description":". XHTML . CSS . Design . Art . TLW . Drums . Music . Movies. Little Joy . twitter:paulaa_oliveira",
+          "url":"http://meme.yahoo.com/paulaoliveira/",
+          "avatar_url":"http://d.yimg.com/gg/paulaoliveira/avatars/3008613bcce35038dddd62b428fc515691705a65.jpeg",
+          "language":"pt",
+          "followers":"49"
+        },
+        {
+          "guid":"NEUNUDTFXKL4Q3IQK2JEH4NMDI",
+          "name":"edercosta",
+          "title":"edercosta",
+          "description":"desenvolvedor web, só!",
+          "url":"http://meme.yahoo.com/edercosta/",
+          "avatar_url":"http://d.yimg.com/gg/edercosta/avatars/7e7b464e2af1e413ca421101d57b3c5684325076.jpeg",
+          "language":"pt",
+          "followers":"6"
+        },
+        {
+          "guid":"GNQZXVPVCUUVFODPRUGPYSK5LA",
+          "name":"marcelofraga",
+          "title":"Marcelo Fraga",
+          "description":"Web Developer",
+          "url":"http://meme.yahoo.com/marcelofraga/",
+          "avatar_url":"http://d.yimg.com/gg/marcelofraga/avatars/8dc4fde72c2f718386a44f52c5384ed83f7eea67.jpeg",
+          "language":"pt",
+          "followers":"5"
+        },
+        {
+          "guid":"SNTS64IYOYICF2TMB2QN2EGG2Y",
+          "name":"berg_te_amo",
+          "title":"°•๋ °Loறa°•๋ °",
+          "description":"°•๋ °navegando no றar dos றeus sonhos°•๋ °",
+          "url":"http://meme.yahoo.com/berg_te_amo/",
+          "avatar_url":"http://d.yimg.com/gg/berg_te_amo/avatars/24872b74162ea7ca3a0db798e25dccd7250aac33.jpeg",
+          "language":"pt",
+          "followers":"403"
+        },
+        {
+          "guid":"M7OYDALP7ODIEAH6W2ZUQTVIB4",
+          "name":"matiaz",
+          "title":"Matiaz",
+          "description":"Yahoo! Argentina",
+          "url":"http://meme.yahoo.com/matiaz/",
+          "avatar_url":"http://d.yimg.com/gg/matiaz/avatars/711923e770e1c66f86e8ceb2743dd09e0d6a35cf.jpeg",
+          "language":"en",
+          "followers":"1492"
+        },
+        {
+          "guid":"FAUSSEXVN5WG3PD7T6HLJ3AS3E",
+          "name":"yuitaki",
+          "title":"Yuitaki",
+          "description":"Loading Profile, Please Wait...",
+          "url":"http://meme.yahoo.com/yuitaki/",
+          "avatar_url":"http://d.yimg.com/gg/yuitaki/avatars/3c0671b2aa13f2d889cdbad22fb847f6db06ed33.png",
+          "language":"pt",
+          "followers":"213"
+        },
+        {
+          "guid":"QLET3EJ5XXYIVAHBOQVSPZB6BM",
+          "name":"mariano",
+          "title":"mariano",
+          "description":"Coisas engraçadas e informática!! O.o",
+          "url":"http://meme.yahoo.com/mariano/",
+          "avatar_url":"http://d.yimg.com/gg/mariano/avatars/13311faeddf76382df7806b8ad188e8b455cd2ca.jpeg",
+          "language":"pt",
+          "followers":"287"
+        },
+        {
+          "guid":"FLPPIPKRRTELR3IDUQYZ5EEAHU",
+          "name":"manoel777",
+          "title":"manoel777",
+          "description":"Contradição?",
+          "url":"http://meme.yahoo.com/manoel777/",
+          "avatar_url":"http://d.yimg.com/gg/manoel777/avatars/0d758939f89d081f218ad8de0b7bfac9a56f2f2c.jpeg",
+          "language":"pt",
+          "followers":"56"
+        },
+        {
+          "guid":"WBIXWYHPIMLFLVGXTK5PKVZWSM",
+          "name":"softwaretoday",
+          "title":"Softwaretoday",
+          "description":"Como se deve desenvolver software hoje",
+          "url":"http://meme.yahoo.com/softwaretoday/",
+          "avatar_url":"http://d.yimg.com/gg/softwaretoday/avatars/956f932a65e422ad415937c6923ce7d3da76fce2.jpeg",
+          "language":"pt",
+          "followers":"10"
+        },
+        {
+          "guid":"GIOPGUCCJAWGHCXCIAF2ZTID4M",
+          "name":"rafabarros",
+          "title":"rafabarros",
+          "description":"@nicnina bring me here!",
+          "url":"http://meme.yahoo.com/rafabarros/",
+          "avatar_url":"http://d.yimg.com/gg/rafabarros/avatars/4dafb2b5cffa323e4b6242ebe5483e76184d183e.jpeg",
+          "language":"pt",
+          "followers":"296"
+        },
+        {
+          "guid":"IT747IUMDOQEIM7V3RBDYP7SJE",
+          "name":"memenina",
+          "title":"memenina",
+          "description":"Apreciadora dos pequenos prazeres",
+          "url":"http://meme.yahoo.com/memenina/",
+          "avatar_url":"http://d.yimg.com/gg/memenina/avatars/d4dd56a1a3e6988b35bfed0564cb697c67a21e36.jpeg",
+          "language":"pt",
+          "followers":"452"
+        },
+        {
+          "guid":"BXOSGMMDKHX6TBFTJJOUZWH7GM",
+          "name":"cortez",
+          "title":"Cortez",
+          "description":"Eu e Meme, Meme e Eu...",
+          "url":"http://meme.yahoo.com/cortez/",
+          "avatar_url":"http://d.yimg.com/gg/cortez/avatars/aa5134a947c8423f5f2257610a97b4a43013f382.jpeg",
+          "language":"pt",
+          "followers":"21"
+        },
+        {
+          "guid":"ANIAXWO3ILXHMWFUT7YJDTB6W4",
+          "name":"juliocamara",
+          "title":"Júlio Câmara",
+          "description":"Jovem blogueiro gaúcho, vegetariano,ativista político, geek, e tudo mais.",
+          "url":"http://meme.yahoo.com/juliocamara/",
+          "avatar_url":"http://d.yimg.com/gg/juliocamara/avatars/42ba252b3c318f890bc31933f074c9d1801bbffe.jpeg",
+          "language":"pt",
+          "followers":"168"
+        },
+        {
+          "guid":"VVGVXJRUCEBDIF3ZMPINAV7BAU",
+          "name":"vithor_scofield",
+          "title":"Lion",
+          "description":"Thunderr",
+          "url":"http://meme.yahoo.com/vithor_scofield/",
+          "avatar_url":"http://d.yimg.com/gg/vithor_scofield/avatars/a78b35f0a31e0ea844e48b3b2ffe944d1ac0a904.jpeg",
+          "language":"pt",
+          "followers":"348"
+        },
+        {
+          "guid":"ITSECGIYI7LDNVAVXDSC6DRQ6M",
+          "name":"pauloesantos",
+          "title":"pauloesantos",
+          "description":"Paulo Dudu",
+          "url":"http://meme.yahoo.com/pauloesantos/",
+          "avatar_url":"http://d.yimg.com/a/i/identity/nopic_96.gif",
+          "language":"pt",
+          "followers":"28"
+        },
+        {
+          "guid":"LKMTQUYO4NA3HWE2MHPCC2UVOU",
+          "name":"willweb",
+          "title":"willweb",
+          "description":"Imerso no mundo digital, para descobrir intenções e realidades físicas!",
+          "url":"http://meme.yahoo.com/willweb/",
+          "avatar_url":"http://d.yimg.com/gg/willweb/avatars/480c433a64d2b433e618cd6acb7436dafffe5299.jpeg",
+          "language":"pt",
+          "followers":"12283"
+        },
+        {
+          "guid":"L4GB3HNKG724JIHUYLA35M7RWM",
+          "name":"helenfernanda",
+          "title":"Helen Fernanda",
+          "description":"Acho que só vou voltar quando isto aqui ficar bom.",
+          "url":"http://meme.yahoo.com/helenfernanda/",
+          "avatar_url":"http://d.yimg.com/gg/helenfernanda/avatars/d55d04e900cc5355f4450fa2809ae24aa57332cb.png",
+          "language":"pt",
+          "followers":"170"
+        },
+        {
+          "guid":"ZIR4PINQAFECLNLWZXTR2IG2LM",
+          "name":"sturdy",
+          "title":"sturdy",
+          "description":"ohh, fuck it...",
+          "url":"http://meme.yahoo.com/sturdy/",
+          "avatar_url":"http://d.yimg.com/gg/sturdy/avatars/2b798878bd9d92709512a1f996788c5a4c7d4c4a.jpeg",
+          "language":"pt",
+          "followers":"328"
+        },
+        {
+          "guid":"URXXAMGXMTOCBYIMQH57IP673M",
+          "name":"pedrovalente",
+          "title":"Pedro Valente",
+          "description":"Eu não sou quieto, sou é muito interrompido",
+          "url":"http://meme.yahoo.com/pedrovalente/",
+          "avatar_url":"http://d.yimg.com/gg/pedrovalente/avatars/97561448ead3adb8278153d2db2c9ef25c9d2b9a.jpeg",
+          "language":"en",
+          "followers":"21410"
+        },
+        {
+          "guid":"TC576LUHCYE3HKUUKF336MTG5Y",
+          "name":"fla_prada",
+          "title":"Flá Prada",
+          "description":"http://twitter.com/flprada25",
+          "url":"http://meme.yahoo.com/fla_prada/",
+          "avatar_url":"http://d.yimg.com/gg/fla_prada/avatars/46d18c7027d91ed543bc018f77fe129513f44441.jpeg",
+          "language":"pt",
+          "followers":"271"
+        },
+        {
+          "guid":"ZE5FEQMJ4AQUYWEKF567BLC46E",
+          "name":"sininho115",
+          "title":"Sininho115",
+          "description":"http://zerotrack.com.br/",
+          "url":"http://meme.yahoo.com/sininho115/",
+          "avatar_url":"http://d.yimg.com/gg/sininho115/avatars/0009292d53d91eb8959a41be6feae01af57953e3.jpeg",
+          "language":"pt",
+          "followers":"342"
+        },
+        {
+          "guid":"UJO6NFDARGOLGSVK5SJXCJ7JBQ",
+          "name":"laryleal",
+          "title":"Lary Leal",
+          "description":"24anos, solteira, publicitária, sonhadora, fotografeira, geminiana, sãopaulina, apaixonada etc e tal",
+          "url":"http://meme.yahoo.com/laryleal/",
+          "avatar_url":"http://d.yimg.com/gg/laryleal/avatars/f2913a81a01cb6b26bfa89f0dd3da732cd7b558f.jpeg",
+          "language":"pt",
+          "followers":"94"
+        }
+        ]
+      }
+  }
+}
