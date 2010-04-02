@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{meme}
-  s.version = "0.1.2"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["J\303\251sus Lopes"]
-  s.date = %q{2010-03-23}
+  s.date = %q{2010-04-01}
   s.description = %q{Yahoo! Meme API wrapper library in Ruby}
   s.email = %q{jlopes@zigotto.com.br}
   s.extra_rdoc_files = [
@@ -24,14 +24,25 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/meme.rb",
+     "lib/meme/info.rb",
+     "lib/meme/request.rb",
+     "lib/meme/search.rb",
      "meme.gemspec",
+     "spec/fixtures/meme_followers.json",
+     "spec/fixtures/meme_followers_all.json",
+     "spec/fixtures/meme_followers_count.json",
+     "spec/fixtures/meme_following.json",
+     "spec/fixtures/meme_following_all.json",
+     "spec/fixtures/meme_following_count.json",
      "spec/fixtures/meme_info.json",
      "spec/fixtures/meme_info_not_found.json",
      "spec/fixtures/meme_search.json",
      "spec/fixtures/meme_search_type_audio.json",
      "spec/fixtures/meme_search_type_photo.json",
      "spec/fixtures/meme_search_type_video.json",
+     "spec/info_spec.rb",
      "spec/meme_spec.rb",
+     "spec/search_spec.rb",
      "spec/spec.opts",
      "spec/spec_helper.rb"
   ]
@@ -42,7 +53,9 @@ Gem::Specification.new do |s|
   s.summary = %q{Ruby Yahoo! Meme API}
   s.test_files = [
     "spec/meme_spec.rb",
-     "spec/spec_helper.rb"
+     "spec/search_spec.rb",
+     "spec/spec_helper.rb",
+     "spec/info_spec.rb"
   ]
 
   if s.respond_to? :specification_version then
