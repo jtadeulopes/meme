@@ -1,0 +1,112 @@
+{
+  "query":{
+    "count":"10",
+      "created":"2010-04-01T11:46:35Z",
+      "lang":"en-US",
+      "updated":"2010-04-01T11:46:35Z",
+      "uri":"https://query.yahooapis.com/v1/yql?q=SELECT+*+FROM+meme.following%2810%29+WHERE+owner_guid%3D%27EMREXCV4R5OTM3CZW3HBD5QAGY%27",
+      "results":{
+        "meme":[{
+          "guid":"J7B4OWIQWFXHJDYZWAARA2RYZE",
+          "name":"zigotto",
+          "title":"Zigotto",
+          "description":"Criação e Desenvolvimento para todo Vale do Paraíba e Brasil",
+          "url":"http://meme.yahoo.com/zigotto/",
+          "avatar_url":"http://d.yimg.com/gg/zigotto/avatars/c0fbd3fe6c109cebaf0c0c871e45e338b7c04ed8.png",
+          "language":"pt",
+          "followers":"1"
+        },
+        {
+          "guid":"7LH5PDA5FAWDZG6N3SH6VJ6GVM",
+          "name":"doyoulike",
+          "title":"Lee/Stella",
+          "description":"O meu querer é complicado demais, quero o que não se pode explicar aos normais.",
+          "url":"http://meme.yahoo.com/doyoulike/",
+          "avatar_url":"http://d.yimg.com/gg/doyoulike/avatars/bfd3f13d0efcc119f16b24e7f2723403707687b1.jpeg",
+          "language":"pt",
+          "followers":"357"
+        },
+        {
+          "guid":"KVNDRHR2ZNDY6ZVN2JNPX5H3RE",
+          "name":"acarlos1000",
+          "title":"Antonio Carlos Silveira",
+          "description":"Meme about Technology, the Internets, Gadgets and Geek stuff",
+          "url":"http://meme.yahoo.com/acarlos1000/",
+          "avatar_url":"http://d.yimg.com/gg/acarlos1000/avatars/7190622741437b56b06eebf0a33b3479f9e1dd60.jpeg",
+          "language":"en",
+          "followers":"29875"
+        },
+        {
+          "guid":"6M46NNM2LO5YQ7XNYCU5MVITKE",
+          "name":"acsouza09",
+          "title":"acsouza09",
+          "description":"Sou uma pessoa feliz, extremamente vaidoosa!",
+          "url":"http://meme.yahoo.com/acsouza09/",
+          "avatar_url":"http://d.yimg.com/gg/acsouza09/avatars/013fb916b1362f68acbbea5ec643012380d942e6.jpeg",
+          "language":"pt",
+          "followers":"3"
+        },
+        {
+          "guid":"URXXAMGXMTOCBYIMQH57IP673M",
+          "name":"pedrovalente",
+          "title":"Pedro Valente",
+          "description":"Eu não sou quieto, sou é muito interrompido",
+          "url":"http://meme.yahoo.com/pedrovalente/",
+          "avatar_url":"http://d.yimg.com/gg/pedrovalente/avatars/97561448ead3adb8278153d2db2c9ef25c9d2b9a.jpeg",
+          "language":"en",
+          "followers":"21413"
+        },
+        {
+          "guid":"2I4U7XOLQZQZUD7CPAZXXLIWOM",
+          "name":"brhackday",
+          "title":"brhackday",
+          "description":"Open Hack Day 2010",
+          "url":"http://meme.yahoo.com/brhackday/",
+          "avatar_url":"http://d.yimg.com/gg/brhackday/avatars/c8bdb8bd927898b4e9114124d382700823856720.jpeg",
+          "language":"pt",
+          "followers":"898"
+        },
+        {
+          "guid":"EORMRTX3NZLMA7C4SQZIT52ISE",
+          "name":"api",
+          "title":"Official Meme API",
+          "description":"Announcements and tips about the Meme API and developer stuff",
+          "url":"http://meme.yahoo.com/api/",
+          "avatar_url":"http://d.yimg.com/gg/api/avatars/2a02d33a3f869089172707659ef2d25168e7eb0d.png",
+          "language":"en",
+          "followers":"63251"
+        },
+        {
+          "guid":"GNQZXVPVCUUVFODPRUGPYSK5LA",
+          "name":"marcelofraga",
+          "title":"Marcelo Fraga",
+          "description":"Web Developer",
+          "url":"http://meme.yahoo.com/marcelofraga/",
+          "avatar_url":"http://d.yimg.com/gg/marcelofraga/avatars/8dc4fde72c2f718386a44f52c5384ed83f7eea67.jpeg",
+          "language":"pt",
+          "followers":"5"
+        },
+        {
+          "guid":"NEUNUDTFXKL4Q3IQK2JEH4NMDI",
+          "name":"edercosta",
+          "title":"edercosta",
+          "description":"desenvolvedor web, só!",
+          "url":"http://meme.yahoo.com/edercosta/",
+          "avatar_url":"http://d.yimg.com/gg/edercosta/avatars/7e7b464e2af1e413ca421101d57b3c5684325076.jpeg",
+          "language":"pt",
+          "followers":"6"
+        },
+        {
+          "guid":"QLET3EJ5XXYIVAHBOQVSPZB6BM",
+          "name":"mariano",
+          "title":"mariano",
+          "description":"Coisas engraçadas e informática!! O.o",
+          "url":"http://meme.yahoo.com/mariano/",
+          "avatar_url":"http://d.yimg.com/gg/mariano/avatars/13311faeddf76382df7806b8ad188e8b455cd2ca.jpeg",
+          "language":"pt",
+          "followers":"287"
+        }
+        ]
+      }
+  }
+}

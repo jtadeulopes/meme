@@ -24,7 +24,7 @@ Meme uses {YQL}[http://developer.yahoo.com/yql/] to get API of {Yahoo! Meme}[htt
   user.avatar_url
   => "http://d.yimg.com/gg/jtadeulopes/avatars/44251e70378d4d225f8cda09a6c3aec87301833a.jpeg"
 
-=== Followers
+=== Followers and Following
 
   followers = user.followers
   followers.count
@@ -37,6 +37,10 @@ Meme uses {YQL}[http://developer.yahoo.com/yql/] to get API of {Yahoo! Meme}[htt
 
   follower.url
   => "http://meme.yahoo.com/zigotto/"
+
+  following = user.following
+  following.count
+  => 10
 
 === Find posts
 

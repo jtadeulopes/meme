@@ -73,6 +73,39 @@ module Meme
       end
     end
 
+    # Return user following
+    #
+    #   Example:
+    #
+    #   # Search user
+    #   user = Meme::Info.find('jtadeulopes')
+    #
+    #   # Default
+    #   following = user.following
+    #   following.count
+    #   => 10
+    #
+    #   # Specify a count
+    #   following = user.following(100)
+    #   following.count
+    #   => 100
+    #
+    #   # All following
+    #   following = user.following(:all)
+    #   following.count
+    #
+    def following(count=10)
+      count = 0 if count.is_a?(Symbol) && count == :all
+      query = "SELECT * FROM meme.following(#{count}) WHERE owner_guid='#{self.guid}'"
+      parse = Request.parse(query)
+      if parse
+        results = parse['query']['results']
+        results.nil? ? nil : results['meme'].map {|m| Info.new(m)}
+      else
+        parse.error!
+      end
+    end
+
   end
 
 end

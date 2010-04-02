@@ -66,4 +66,22 @@ describe "Meme::Info" do
 
   end
 
+  describe "#following" do
+    it "should return following" do
+      query = "SELECT * FROM meme.following(10) WHERE owner_guid='EMREXCV4R5OTM3CZW3HBD5QAGY'"
+      fake_web(query, 'meme_following.json')
+      @profile.following.count.should == 10
+    end
+    it "should return seven following" do
+      query = "SELECT * FROM meme.following(7) WHERE owner_guid='EMREXCV4R5OTM3CZW3HBD5QAGY'"
+      fake_web(query, 'meme_following_count.json')
+      @profile.following(7).count.should == 7
+    end
+    it "should return all following" do
+      query = "SELECT * FROM meme.following(0) WHERE owner_guid='EMREXCV4R5OTM3CZW3HBD5QAGY'"
+      fake_web(query, 'meme_following_all.json')
+      @profile.following(:all).count.should == 39
+    end
+  end
+
 end
