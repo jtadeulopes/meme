@@ -2,7 +2,7 @@
 
 Yahoo! Meme API wrapper library in Ruby
 
-This project was made during {Yahoo! Open Hack Day Brasil 2010}[http://openhackbrazil.pbworks.com/]. Event that happened in São Paulo 20, 21 of March 2010.
+This project was made during {Yahoo! Open Hack Day Brasil 2010}[http://openhackbrazil.pbworks.com/]. Event that happened in Sao Paulo 20, 21 of March 2010.
 
 Meme uses {YQL}[http://developer.yahoo.com/yql/] to get API of {Yahoo! Meme}[http://meme.yahoo.com/] and is based on {meme-py}[http://github.com/guilhermechapiewski/meme-py] API created by {Guilherme Chapiewski}[http://twitter.com/gchapiewski]
 
