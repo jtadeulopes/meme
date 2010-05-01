@@ -59,6 +59,14 @@ Find by type:
   posts.first.type
   => "photo"
 
+=== Popular
+
+Returns the top 10 posts on that moment. 
+
+Currently, the codes are "en" for English, "es" for Spanish, "pt" for Portuguese and "id" for Bahasa Indonesia.
+
+  Meme::Post.popular
+
 For more information, please refer the {project wiki}[http://wiki.github.com/jtadeulopes/meme/]
 
 == Installation
