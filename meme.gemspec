@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{meme}
-  s.version = "0.2.0"
+  s.version = "0.2.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["J\303\251sus Lopes"]
-  s.date = %q{2010-04-01}
+  s.date = %q{2010-05-01}
   s.description = %q{Yahoo! Meme API wrapper library in Ruby}
   s.email = %q{jlopes@zigotto.com.br}
   s.extra_rdoc_files = [
@@ -35,7 +35,10 @@ Gem::Specification.new do |s|
      "spec/fixtures/meme_following_all.json",
      "spec/fixtures/meme_following_count.json",
      "spec/fixtures/meme_info.json",
+     "spec/fixtures/meme_info_guid.json",
      "spec/fixtures/meme_info_not_found.json",
+     "spec/fixtures/meme_popular_id.json",
+     "spec/fixtures/meme_popular_pt.json",
      "spec/fixtures/meme_search.json",
      "spec/fixtures/meme_search_type_audio.json",
      "spec/fixtures/meme_search_type_photo.json",
@@ -49,13 +52,13 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://github.com/jtadeulopes/meme}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.5}
+  s.rubygems_version = %q{1.3.6}
   s.summary = %q{Ruby Yahoo! Meme API}
   s.test_files = [
-    "spec/meme_spec.rb",
+    "spec/info_spec.rb",
+     "spec/meme_spec.rb",
      "spec/search_spec.rb",
-     "spec/spec_helper.rb",
-     "spec/info_spec.rb"
+     "spec/spec_helper.rb"
   ]
 
   if s.respond_to? :specification_version then
