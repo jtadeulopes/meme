@@ -1,0 +1,20 @@
+{
+  "query": {
+    "count": "1",
+      "created": "2010-05-01T04:44:00Z",
+      "lang": "en-US",
+      "results": {
+        "meme": {
+          "guid": "QKSXELRVSAWRI77FVKODDYTKB4",
+          "name": "tempestadesilenciosa",
+          "title": "·ઇ\u200dઉTempestadeSilenciosa♥♥♥٠·ઇ\u200dઉ ●๋NiNA ٠",
+          "description": "a um passo da loucura.",
+          "url": "http://meme.yahoo.com/tempestadesilenciosa/",
+          "avatar_url": "http://d.yimg.com/gg/tempestadesilenciosa/avatars/c6ff4bd5aa79ea0ecf7c1cde3524624472d958b1.jpeg",
+          "language": "pt",
+          "following": "1000",
+          "followers": "1535"
+        }
+      }
+  }
+}

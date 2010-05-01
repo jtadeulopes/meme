@@ -34,6 +34,23 @@ module Meme
       end
     end
 
+    # Find user by guid
+    #
+    #   Example:
+    #
+    #   user = Meme::Info.find_by_guid('EMREXCV4R5OTM3CZW3HBD5QAGY')
+    #
+    def self.find_by_guid(name)
+      query = "SELECT * FROM meme.info WHERE owner_guid='#{name}'"
+      parse = Request.parse(query)
+      if parse
+        results = parse['query']['results']
+        results.nil? ? nil : Info.new(results['meme'])
+      else
+        parse.error!
+      end
+    end
+
     # Return user followers
     #
     #   Example:

@@ -8,7 +8,7 @@ describe "Meme::Info" do
     @profile = Meme::Info.find('jtadeulopes')
   end
 
-  describe "#find" do
+  describe "::find" do
 
     it "if user not found, should return nil" do
       query = "SELECT * FROM meme.info WHERE name='memeusernotfound'"
@@ -42,6 +42,24 @@ describe "Meme::Info" do
 
     it "should return language" do
       @profile.language.should == "pt"
+    end
+
+  end
+
+  describe "::find_by_guid" do
+
+    before :each do
+      query = "SELECT * FROM meme.info WHERE owner_guid='QKSXELRVSAWRI77FVKODDYTKB4'"
+      fake_web(query, 'meme_info_guid.json')
+      @profile_guid = Meme::Info.find_by_guid('QKSXELRVSAWRI77FVKODDYTKB4')
+    end
+
+    it "should return name" do
+      @profile_guid.name.should == "tempestadesilenciosa"
+    end
+
+    it "should return guid" do
+      @profile_guid.guid.should == "QKSXELRVSAWRI77FVKODDYTKB4"
     end
 
   end

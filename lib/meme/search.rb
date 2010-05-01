@@ -42,6 +42,29 @@ module Meme
       end
     end
 
+    # Returns the top 10 posts on that moment.
+    # You can also set the locale that you want to retrieve:
+    #
+    # * "en" for English
+    # * "es" for Spanish
+    # * "pt" for Portuguese (Default)
+    # * "id" for Bahasa Indonesia
+    #
+    def self.popular(locale='pt')
+      query = "SELECT * FROM meme.popular WHERE locale='#{locale}'"
+      parse = Request.parse(query)
+      if parse
+        results = parse['query']['results']
+        results.nil? ? nil : results['post'].map {|m| Post.new(m)}
+      else
+        parse.error!
+      end
+    end
+
+    def user
+      Meme::Info.find_by_guid(self.guid)
+    end
+
   end
 
 end

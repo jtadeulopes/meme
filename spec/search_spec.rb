@@ -2,7 +2,7 @@ require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
 describe "Meme::Post" do
 
-  describe "#find" do
+  describe "::find" do
 
     before :each do
       query = "SELECT * FROM meme.search WHERE query='meme rocks'"
@@ -68,6 +68,40 @@ describe "Meme::Post" do
         @results = Meme::Post.find('keyboard cat', :type => :video)
         @results.count.should == 2
         @results.first.type.should == "video"
+      end
+
+    end
+
+  end
+
+  describe "::popular" do
+
+    before :each do
+      query = "SELECT * FROM meme.popular WHERE locale='pt'"
+      fake_web(query, 'meme_popular_pt.json')
+      @results = Meme::Post.popular
+    end
+
+    it { @results.count.should == 10 }
+
+    it "should return content" do
+      @results.first.content.should == "http://d.yimg.com/gg/u/38b15b9620e38090aa092420790d3b5a528e8e99.jpeg"
+    end
+
+    it "return the user post" do
+      query = "SELECT * FROM meme.info WHERE owner_guid='QKSXELRVSAWRI77FVKODDYTKB4'"
+      fake_web(query, 'meme_info_guid.json')
+      @results.first.user.guid.should == "QKSXELRVSAWRI77FVKODDYTKB4"
+    end
+
+    context "using the locale" do
+
+      it "locale 'id' for Bahasa Indonesia" do
+        query = "SELECT * FROM meme.popular WHERE locale='id'"
+        fake_web(query, 'meme_popular_id.json')
+        @results = Meme::Post.popular('id')
+        @results.count.should == 10
+        @results.first.content.should == "Kemarin dia menawarkan cinta, hmm sayang harganya terlalu mahal jadi aku putuskan untuk tak memilikinya..."
       end
 
     end
