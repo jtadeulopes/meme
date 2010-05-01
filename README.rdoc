@@ -67,6 +67,10 @@ Currently, the codes are "en" for English, "es" for Spanish, "pt" for Portuguese
 
   Meme::Post.popular
 
+  OR
+
+  Meme::Post.popular('id')
+
 For more information, please refer the {project wiki}[http://wiki.github.com/jtadeulopes/meme/]
 
 == Installation
