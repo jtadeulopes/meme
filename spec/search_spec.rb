@@ -10,6 +10,10 @@ describe "Meme::Post" do
       @results = Meme::Post.find('meme rocks')
     end
 
+    Meme::Post::VARS.each do |attr|
+      it { @results.first.should respond_to(attr) }
+    end
+
     it "should return pubid" do
       @results.first.pubid.should == "yC8nqOd"
     end

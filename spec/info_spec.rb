@@ -8,6 +8,10 @@ describe "Meme::Info" do
     @profile = Meme::Info.find('jtadeulopes')
   end
 
+  Meme::Info::VARS.each do |attr|
+    it { @profile.should respond_to(attr) }
+  end
+
   describe "::find" do
 
     it "if user not found, should return nil" do
