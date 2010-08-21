@@ -123,6 +123,19 @@ module Meme
       end
     end
 
+    # Retrieves all posts of an user
+    #
+    def posts(quantity=0)
+      query = "SELECT * FROM meme.posts(#{quantity}) WHERE owner_guid='#{self.guid}';"
+      parse = Request.parse(query)
+      if parse
+        results = parse['query']['results']
+        results.nil? ? nil : results['post'].map {|m| Post.new(m)}
+      else
+        parse.error!
+      end
+    end
+
   end
 
 end

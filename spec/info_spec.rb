@@ -108,4 +108,30 @@ describe "Meme::Info" do
 
   end
 
+  describe "#posts" do
+
+    before :each do
+      @query = "SELECT * FROM meme.posts(0) WHERE owner_guid='EMREXCV4R5OTM3CZW3HBD5QAGY';"
+      fake_web(@query, 'meme_user_posts.json')
+    end
+
+    it { @profile.should respond_to(:posts) }
+
+    Meme::Post::VARS.each do |attr|
+      it { @profile.posts.first.should respond_to(attr) }
+    end
+    
+    it "should return user posts" do
+      query = "SELECT * FROM meme.posts(2) WHERE owner_guid='EMREXCV4R5OTM3CZW3HBD5QAGY';"
+      fake_web(query, 'meme_user_posts_count.json')
+      posts = @profile.posts(2)
+      posts.count.should == 2
+    end
+
+    it "when not specified quantity, should return all posts" do
+      @profile.posts.count.should == 51
+    end
+
+  end
+
 end
